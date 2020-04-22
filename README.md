@@ -8,8 +8,8 @@ Programos parametrai: naudojamas vektoriaus konteineris, skirstant sudentus kuri
 #### Rūšiavimo palyginimas
 | Studentų kiekis | Struct   | Class    |
 | --------------- | -------- | -------- |
-| 100000          | 0.492139s| 0.836519s|
-| 1000000         | 2.82659s | 9.16482s |
+| 100000          | 0.031268s | 0.836519s|
+| 1000000         | 0.218707s | 9.16482s |
 
 Programos su class'e veikimo laikas su visais studentų kiekiais didesnis nei struct'uros. Jai įtaką gali daryti tai, kad struct realizacijoje studentų duomenys yra vieši, o class - privatūs, todėl jiems pasiekti ir keisti naudojami atitinkami metodai, kurie kaip papildomi veiksmai prailgina veikimo trukmę.
 
