@@ -1,3 +1,10 @@
+## [v1.2](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.2)
+### Patobulinimai
+ * Studento klasei sukurtas copy-konstruktorius.
+ * Perkrauti < ,>= , =, >>, << operatoriai.
+ * Operatoriai pritaikyti anksčiau sukurtose funkcijose.
+ * Programos optimizacijai panaikinti list ir deque.
+
 ## [v1.1](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.1)
 #### Studento duomenis sauganti struktūra pakeista į klasę
 
