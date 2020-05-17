@@ -1,9 +1,15 @@
 #ifndef FUNCTIONS_H_INCLUDED
 #define FUNCTIONS_H_INCLUDED
 
+
 class asmuo {
 protected:
     std::string vardas, pavarde;
+public:
+    inline std::string get_vardas() const { return vardas; }
+    inline std::string get_pavarde() const { return pavarde; }
+    void set_vardas(std::string);
+    void set_pavarde(std::string);
 };
 class studentas : public asmuo {
 public:
@@ -15,11 +21,7 @@ public:
         pavarde = p;
         egz = e;
     }
-    void set_vardas(std::string);
-    void set_pavarde(std::string);
     void set_egz(double);
-    inline std::string get_vardas() const { return vardas; }
-    inline std::string get_pavarde() const { return pavarde; }
     inline double get_egz() const { return egz; }
 
     double static mediana(std::vector<int>& HW, int n);
@@ -32,6 +34,7 @@ public:
     studentas& operator = (const studentas&);
     ~studentas() { };
 };
+
 
 int pasirinkimas();
 int kiekis(int& k);
