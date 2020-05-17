@@ -1,4 +1,4 @@
-## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.5)
+## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.51)
 ### Patobulinimai
 Vietoje turimos vienos Studentas klasės sukurkitos dvi: bazinė klasė - "Asmuo", skirta bendrai aprašyti žmogų ir jos išvestinė (derived) klasė - "Studentas"
 
