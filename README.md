@@ -10,7 +10,7 @@
  - Medianos skaičiavimas
  - Galutinio įvertinimo skaičiavimas
  
- ![Testavimo rezultatai](C:\Users\Gabrielyyytte\Pictures\Screenshots)
+ ![Testavimo rezultatai](https://github.com/gabrielyyytte/3_uzd/blob/master/Screenshot%20(83).png)
 
 ## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.51)
 ### Patobulinimai
