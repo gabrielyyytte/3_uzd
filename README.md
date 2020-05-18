@@ -1,3 +1,17 @@
+## [v2.0](https://github.com/gabrielyyytte/3_uzd/releases/tag/v2.0)
+### Patobulinimai
+ - Sugeneruota [Doxygen](http://www.doxygen.nl/index.html) dokumentacija.
+ - Sukurti ir įvykdyti *unit* testai su [Catch](https://github.com/catchorg/Catch2) framework'u.
+
+### Unit testavimas
+ Testais patikrinta, ar tinkamai veikia:
+ - *Student* klasės pažymių palyginimas operatoriai >=, <, ==
+ - Vidurkio skaičiavimas
+ - Medianos skaičiavimas
+ - Galutinio įvertinimo skaičiavimas
+ 
+ ![Testavimo rezultatai](C:\Users\Gabrielyyytte\Pictures\Screenshots)
+
 ## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.51)
 ### Patobulinimai
 Vietoje turimos vienos Studentas klasės sukurkitos dvi: bazinė klasė - "Asmuo", skirta bendrai aprašyti žmogų ir jos išvestinė (derived) klasė - "Studentas"
