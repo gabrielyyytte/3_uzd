@@ -1,14 +1,23 @@
+
+## Įdiegimo ir naudojimo instrukcija 
+Norint paleisti programos kodą reikia:
+* Atsisiųsti bet kurį iš pateiktų programos kodų
+  <br />[releases](https://github.com/gabrielyyytte/2uzd/releases)
+* Įsidiegti C++ compiler
+  <br />[GCC](https://gcc.gnu.org/)
+* Atsidaryti programos kodą viena iš parsisiųstų programų ir paleisti kodą.
+
 ## [v2.0](https://github.com/gabrielyyytte/3_uzd/releases/tag/v2.0)
 ### Patobulinimai
- - Sugeneruota [Doxygen](http://www.doxygen.nl/index.html) dokumentacija.
- - Sukurti ir įvykdyti *unit* testai su [Catch](https://github.com/catchorg/Catch2) framework'u.
+ * Sugeneruota [Doxygen](http://www.doxygen.nl/index.html) dokumentacija.
+ * Sukurti ir įvykdyti *unit* testai su [Catch](https://github.com/catchorg/Catch2) framework'u.
 
 ### Unit testavimas
  Testais patikrinta, ar tinkamai veikia:
- - *Student* klasės pažymių palyginimas operatoriai >=, <, ==
- - Vidurkio skaičiavimas
- - Medianos skaičiavimas
- - Galutinio įvertinimo skaičiavimas
+ * *Student* klasės pažymių palyginimas operatoriai >=, <, ==.
+ * Vidurkio skaičiavimas.
+ * Medianos skaičiavimas.
+ * Galutinio įvertinimo skaičiavimas.
  
  ![Testavimo rezultatai](https://github.com/gabrielyyytte/3_uzd/blob/master/Screenshot%20(83).png)
 
