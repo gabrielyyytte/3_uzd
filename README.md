@@ -18,7 +18,7 @@ Norint paleisti programos kodą reikia:
  * Medianos skaičiavimas.
  * Galutinio įvertinimo skaičiavimas.
  
- ![Testavimo rezultatai](https://github.com/gabrielyyytte/3_uzd/blob/master/Screenshot%20(83).png)
+ ![Testavimo rezultatai](https://github.com/gabrielyyytte/2uzd/blob/master/Screenshot%20(83).png)
 
 ## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.51)
 ### Patobulinimai
