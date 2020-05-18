@@ -2,7 +2,6 @@
 ## Įdiegimo ir naudojimo instrukcija 
 Norint paleisti programos kodą reikia:
 * Atsisiųsti bet kurį iš pateiktų programos kodų
-  <br />[releases](https://github.com/gabrielyyytte/2uzd/releases)
 * Įsidiegti C++ compiler
   <br />[GCC](https://gcc.gnu.org/)
 * Atsidaryti programos kodą viena iš parsisiųstų programų ir paleisti kodą.
