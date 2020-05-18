@@ -1,6 +1,6 @@
 #ifndef FUNCTIONS_H_INCLUDED
 #define FUNCTIONS_H_INCLUDED
-//#include "../Project3/Project3/vektorius.h"
+
 class asmuo {
 protected:
     std::string vardas, pavarde;
