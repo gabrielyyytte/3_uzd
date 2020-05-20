@@ -45,10 +45,6 @@ public:
     }
     void set_egz(double);
     inline double get_egz() const { return egz; }
-
-    double static mediana(std::vector<int>& HW, int n);
-    double static vidurkis(std::vector<int>& HW, int n);
-    double static Galutinis(std::vector<int>& HW, int egz, char vm);
     friend std::ostream& operator << (std::ostream& out, studentas& s);
     friend std::istream& operator >> (std::istream& in, studentas& s);
     friend  bool operator <(const studentas& a, const studentas& b);
