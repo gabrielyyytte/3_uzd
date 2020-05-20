@@ -23,6 +23,40 @@ Norint paleisti programos kodą reikia:
 ## [v1.5](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.51)
 ### Patobulinimai
 Vietoje turimos vienos Studentas klasės sukurkitos dvi: bazinė klasė - "Asmuo", skirta bendrai aprašyti žmogų ir jos išvestinė (derived) klasė - "Studentas"
+```
+class asmuo {
+protected:
+    std::string vardas, pavarde;
+public:
+    inline std::string get_vardas() const { return vardas; }
+    inline std::string get_pavarde() const { return pavarde; }
+    void set_vardas(std::string);
+    void set_pavarde(std::string);
+};
+class studentas : public asmuo {
+public:
+    double egz;
+    studentas() : egz(0) { };
+    studentas(std::string v, std::string p, double e)
+    {
+        vardas = v;
+        pavarde = p;
+        egz = e;
+    }
+    void set_egz(double);
+    inline double get_egz() const { return egz; }
+
+    double static mediana(std::vector<int>& HW, int n);
+    double static vidurkis(std::vector<int>& HW, int n);
+    double static Galutinis(std::vector<int>& HW, int egz, char vm);
+    friend std::ostream& operator << (std::ostream& out, studentas& s);
+    friend std::istream& operator >> (std::istream& in, studentas& s);
+    friend  bool operator <(const studentas& a, const studentas& b);
+    friend bool operator >=(const studentas& a, const studentas& b);
+    studentas& operator = (const studentas&);
+    ~studentas() { };
+};
+```
 
 ## [v1.2](https://github.com/gabrielyyytte/3_uzd/releases/tag/v1.2)
 ### Patobulinimai
